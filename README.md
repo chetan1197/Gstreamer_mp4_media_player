@@ -5,5 +5,5 @@
 This is an mp4 video+audio player which will take input from uri a .mp4 file and decodes the file and display the video+audio.
 
 For Launching give the below command on Linux Ubuntu terminal :  
-gcc exercise.c -o exercise `pkg-config --cflags --libs gstreamer-1.0`
+gcc exercise.c -o exercise `pkg-config --cflags --libs gstreamer-1.0`  
 Above command will create executable file and for launching the application command will be **./exercise uri** otherwise it will give error and exit from the application.
